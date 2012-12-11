@@ -42,3 +42,21 @@ rm -rf %{buildroot}
 %doc README
 %{_libdir}/lv2/*
 
+
+
+%changelog
+* Wed Apr 25 2012 Frank Kober <emuse@mandriva.org> 1.0.15-3
++ Revision: 793440
+- rebuild adjusting BR and adding missing lm link
+
+* Sun Sep 20 2009 Thierry Vignaud <tv@mandriva.org> 1.0.15-2mdv2010.0
++ Revision: 445302
+- rebuild
+
+* Tue Nov 25 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0.15-1mdv2009.1
++ Revision: 306687
+- import swh-lv2
+
+
+* Tue Nov 25 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0.15-1mdv2009.0
+- initial Mandriva package

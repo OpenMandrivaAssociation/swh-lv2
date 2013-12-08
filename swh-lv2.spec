@@ -1,3 +1,5 @@
+%define debug_package	%{nil}
+
 Summary:    SWH LV2 plugins converted from LADSPA
 Name:       swh-lv2
 Version:    1.0.15

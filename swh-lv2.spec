@@ -3,7 +3,7 @@
 Summary:    SWH LV2 plugins converted from LADSPA
 Name:       swh-lv2
 Version:    1.0.15
-Release:    4
+Release:    5
 License:    GPLv2+
 Group:      Sound
 URL:        http://plugin.org.uk/

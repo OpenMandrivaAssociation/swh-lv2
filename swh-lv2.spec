@@ -2,12 +2,13 @@
 
 Summary:    SWH LV2 plugins converted from LADSPA
 Name:       swh-lv2
-Version:    1.0.15
-Release:    5
+Version:    1.0.16
+Release:    1
 License:    GPLv2+
 Group:      Sound
 URL:        http://plugin.org.uk/
-Source0:    http://plugin.org.uk/lv2/%{name}-%{version}.tar.gz
+#Source0:    http://plugin.org.uk/lv2/%{name}-%{version}.tar.gz
+Source0:    https://github.com/swh/lv2/archive/refs/tags/v%{version}/lv2-%{version}.tar.gz
 BuildRequires:  fftw3-devel
 BuildRequires:  ladspa-devel
 BuildRequires:  lv2-devel
@@ -22,7 +23,7 @@ things should work as well or not as they did in LADSPA.
 
 %prep
 
-%setup -q
+%setup -q -n lv2-%{version}
 
 %build
 

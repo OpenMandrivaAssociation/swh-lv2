@@ -1,3 +1,5 @@
+%define _empty_manifest_terminate_build 0
+
 Summary:    SWH LV2 plugins converted from LADSPA
 Name:       swh-lv2
 Version:    1.0.16

@@ -9,6 +9,7 @@ Group:      Sound
 URL:        https://plugin.org.uk/
 #Source0:    http://plugin.org.uk/lv2/%{name}-%{version}.tar.gz
 Source0:    https://github.com/swh/lv2/archive/refs/tags/v%{version}/lv2-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:  fftw3-devel
 BuildRequires:  ladspa-devel
 BuildRequires:  lv2-devel
